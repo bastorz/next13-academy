@@ -83,7 +83,7 @@ const ChapterIdPage = async ({
                 isCompleted={!!userProgress?.isCompleted}
               />
             ) : (
-             <div className={chapter.isFree ? "hidden" : ""}>
+             <div>
                 <CourseEnrollButton
                   courseId={params.courseId}
                   price={course.price!}
